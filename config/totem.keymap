@@ -44,6 +44,16 @@
             key-positions = <16 17 18>;
             bindings = <&kp ENTER>;
         };
+
+        double_q {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <5 6>;
+        };
+
+        string_symbol {
+            bindings = <&kp SQT>;
+            key-positions = <6 7>;
+        };
     };
 
     macros {
@@ -111,10 +121,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-       &kp EXCLAMATION  &kp QUESTION     &kp EQUAL         &kp EQUAL          &kp LBRC      &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-       &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE      &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&to 0  &kp DEL          &kp PG_UP        &kp CAPS          &kp PG_DN          &kp LPAR      &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
-                                         &trans            &trans             &bt BT_CLR    &mo ADJ   &kp KP_N0  &trans
+       &kp EXCLAMATION  &kp QUESTION     &kp EQUAL         &kp AMPERSAND      &kp PERCENT    &kp CARET     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
+       &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PIPE       &kp ASTERISK  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
+&to 0  &kp PLUS         &kp MINUS        &kp HASH          &kp DOLLAR         &kp LPAR       &kp RPAR      &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
+                                         &trans            &trans             &bt BT_CLR     &mo ADJ       &kp KP_N0  &trans
             >;
         };
 
